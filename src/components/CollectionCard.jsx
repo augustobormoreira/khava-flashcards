@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiEdit2, FiTrash2, FiUser, FiHeart, FiGlobe, FiBookmark, FiLock } from 'react-icons/fi';
+import { FiEdit2, FiTrash2, FiUser, FiHeart, FiGlobe, FiBookmark, FiLock, FiX } from 'react-icons/fi';
 
 const CollectionCard = ({ collection, isOwnerView = false, isFavoriteView = false, onDelete, onFavoriteToggle }) => {
 
